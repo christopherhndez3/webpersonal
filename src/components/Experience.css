@@ -1,0 +1,44 @@
+/* src/components/Experience.css */
+#experience {
+    padding: 2em;
+    width: 100%;
+    text-align: center;
+    background-color: #f0f0f0; /* Fondo gris claro */
+  }
+  
+  #experience h2 {
+    color: #007BFF; /* Azul corporativo */
+    margin-bottom: 1em;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5em;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card h3 {
+    margin: 0 0 1em 0;
+    color: #007BFF; /* Azul corporativo */
+  }
+  
+  .card p {
+    margin: 0;
+    color: #333; /* Texto negro */
+  }
+  

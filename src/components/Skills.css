@@ -1,0 +1,34 @@
+/* src/components/Skills.css */
+#skills {
+  padding: 2em;
+  width: 100%;
+  text-align: center;
+  background-color: #2aa4f6; /* Fondo azul */
+}
+
+#skills h2 {
+  color: #fff; /* Texto blanco para contraste */
+  margin-bottom: 1em;
+}
+
+#skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+#skills ul li {
+  display: inline-block;
+  margin: 1em;
+  padding: 1em 2em;
+  background-color: #fff;
+  color: #333;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+#skills ul li:hover {
+  transform: rotateY(20deg) rotateX(20deg);
+}
